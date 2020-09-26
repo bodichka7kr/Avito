@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bodikchop</title>
+  <style>
+  body {
+    background-color: #fdfbfd;
+    height: 2430px;
+  }
+  div, li {
+    display: inline-block;
+    margin: 20px;
+  }
+  div, li:hover {
+    color: #d29327;
+  }
+  .nav {
+    font-size: 20px;
+    font-family: Consolas, sans-serif;
+    color: #3e373d;
+    position: absolute;
+    top: 10px;
+    left: 780px;
+  }
+  .polias {
+    width: 520px;
+    height: 35px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+  }
+  .poisk1 {
+    width: 360px;
+    height: 25px;
+    font-size: 20px;
+    border: 2px solid #afbcc1;
+    border-radius: 9px;
+  }
+  .poisk2 {
+    position: absolute;
+    top: -1px;
+    left: 380px;
+    width: 120px;
+    height: 32px;
+    border: 2px solid #afbcc1;
+    border-radius: 9px;
+    background-color: #5f6163;
+    color: #f5f1f1;
+    font-family: Consolas, sans-serif;
+  }
+  .poisk2:hover {
+    background-color: #dee2e6;
+    color: #060404;
+    transition: 0.2s ease-in;
+  }
+  .tovar1 {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 1400px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 4px solid #f1efef;
+    border-radius: 45px;
+  }
+  img.bycicle {
+    margin: 85px 0px 20px 40px;
+  }
+  .name1 {
+    position: absolute;
+    top: 10px;
+    left: 59%;
+    font-size: 40px;
+    color: #032d18
+  }
+  .tovar1 button {
+    position: absolute;
+    top: 330px;
+    left: 950px;
+    width: 220px;
+    height: 70px;
+    background-color: #0a1f03;
+    color: #eef3f0;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+  .tovar2 {
+    position: absolute;
+    top: 750px;
+    left: 20px;
+    width: 1400px;
+    height: 450px;
+    background-color: #fbfbfb;
+    border: 4px solid #f1efef;
+    border-radius: 45px;
+  }
+  img.car {
+    margin: 30px 0px 0px 40px;
+  }
+  .name2 {
+    position: absolute;
+    top: 10px;
+    left: 59%;
+    font-size: 40px;
+    color: #032d18;
+  }
+  .tovar2 button {
+    position: absolute;
+    top: 330px;
+    left: 950px;
+    width: 220px;
+    height: 70px;
+    background-color: #0a1f03;
+    color: #eef3f0;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+  .tovar3 {
+    position: absolute;
+    top: 1250px;
+    left: 20px;
+    width: 1400px;
+    height: 450px;
+    background-color: white;
+    border: 4px solid #f1efef;
+    border-radius: 45px;
+  }
+  img.phones {
+    margin: 60px 0px 0px 60px;
+  }
+  .name3 {
+    position: absolute;
+    top: 10px;
+    left: 61%;
+    font-size: 40px;
+    color: #032d18;
+  }
+  .tovar3 button {
+    position: absolute;
+    top: 330px;
+    left: 950px;
+    width: 220px;
+    height: 70px;
+    background-color: #0a1f03;
+    color: #eef3f0;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+  .tovar4 {
+    position: absolute;
+    top: 1750px;
+    left: 20px;
+    width: 1400px;
+    height: 450px;
+    background-color: white;
+    border: 4px solid #f1efef;
+    border-radius: 45px;
+  }
+  img.sport {
+    margin: 30px 0px 0px 50px;
+  }
+  .name4 {
+    position: absolute;
+    top: 10px;
+    left: 66%;
+    font-size: 40px;
+    color: #032d18;
+  }
+  .tovar4 button {
+    position: absolute;
+    top: 330px;
+    left: 950px;
+    width: 220px;
+    height: 70px;
+    background-color: #0a1f03;
+    color: #eef3f0;
+    font-size: 30px;
+    border-radius: 20px;
+  }
+  .footer {
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 2350px;
+    width: 95%;
+    height: 80px;
+    background-color: #b9b9cc;
+    border-radius: 20px;
+    margin: 0px 2% -10px 2.7%;
+    text-align: center;
+    color: #050423
+  }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="header">
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwRFakCZlYUH6HBy-ReyrFR6F_rnJOmUSEiw&usqp=CAU" width="350px" alt="">
+    </div>
+    <div class="nav">
+      <ul>
+        <li>Главная</li>
+        <li>Товары</li>
+        <li>Услуги</li>
+        <li>О нас</li>
+        <li>Контакты</li>
+      </ul>
+      <form class="polias" action="index.html" method="post">
+        <input class="poisk1" type="text" name="" value="">
+        <button class="poisk2" type="button" name="button">Поиск</button>
+      </form>
+    </div>
+  </div>
+  <div class="towars">
+    <div class="tovar1">
+      <div class="photo1">
+        <img class="bycicle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUY-NPlpEOv6Be2t-GinCRiKOmu4NwxhQhRQ&usqp=CAU" alt="" width="450px">
+      </div>
+      <div class="name1">
+        <h1>Велосипеди</h1>
+      </div>
+      <div class="buton">
+        <button type="button" name="button">Купити</button>
+      </div>
+    </div>
+    <div class="tovar2">
+      <div class="photo2">
+        <img class="car" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRC3P4lD1Af6W_KVForZikMqhwJGpC35Ob6jQ&usqp=CAU" alt="" width="450px">
+      </div>
+      <div class="name2">
+        <h1>Автомобілі</h1>
+      </div>
+      <div class="buton2">
+        <button type="button" name="button">Купити</button>
+      </div>
+    </div>
+    <div class="tovar3">
+      <div class="photo3">
+        <img class="phones" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSy0m5Wt51R9t_hgB9DSBggn69qYNF6S99rZw&usqp=CAU" alt="" width="450px">
+      </div>
+      <div class="name3">
+        <h1>Телефони</h1>
+      </div>
+      <div class="buton3">
+        <button type="button" name="button">Купити</button>
+      </div>
+    </div>
+    <div class="tovar4">
+      <div class="photo4">
+        <img class="sport" src="https://static6.depositphotos.com/1003625/592/i/450/depositphotos_5927512-stock-photo-dumbbells.jpg" alt="" width="450px">
+      </div>
+      <div class="name4">
+        <h1>Спорт</h1>
+      </div>
+      <div class="buton4">
+        <button type="button" name="button">Купити</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <ul>
+    <li>- Залишити відгук -</li>
+    <li>- Звороотній зв'язок -</li>
+    <li>- Підписатися на нас в соц мережах -</li>
+    <li>Copyright &copy 2015 - 2020</li>
+  </ul>
+</div>
+</div>
+</body>
+</html>
